@@ -1,16 +1,23 @@
-/* SELECT is used for retrieving data from a database */
+-- SELECT
 
-SELECT * FROM users;
+/*
+    The SELECT statement is used to select data from a database. 
+    The data returned is stored in a result table, called the result-set. 
+    ------------------------------------------------------------------------------
 
+    Syntax:
+    The basic syntax of a SELECT statement is as follows:
 
-/* 
-The use of '*' retrieves all columns from the specified table, 
-while specifying column names allows for retrieving only specific data. 
- */
+    SELECT column1, column2, ...
+    FROM table_name;
 
-/* If you want to retrieve specific columns,
- you can do so by listing them after the SELECT keyword. */ 
+    You can also use '*' to select all columns from the table.
 
+    The use of ';' at the end of the statement is optional in many SQL environments, but
+    it is a good practice to include it to indicate the end of the statement.
+    
+*/
+
+SELECT * FROM users; -- This will retrieve all columns and all records from the 'users' table.
 SELECT name, email FROM users; -- This will retrieve only the 'name' and 'email' columns from the 'users' table.
-
 SELECT name FROM users; -- This will retrieve only the 'name' column from the 'users' table.
