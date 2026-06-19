@@ -1,2 +1,12 @@
+/* SELECT is used for retrieving data from a database */
+
 SELECT * FROM users;
-SELECT name, email FROM users WHERE age > 30;
+
+
+/* 
+
+The use of '*' retrieves all columns from the specified table, 
+while specifying column names allows for retrieving only specific data. 
+
+ */
+
