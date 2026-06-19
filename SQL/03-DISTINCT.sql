@@ -9,3 +9,4 @@
 */
 
 SELECT DISTINCT country FROM users; -- This will return a list of unique countries from the 'users' table.
+SELECT DISTINCT city, country FROM users; -- This will return a list of unique city-country combinations from the 'users' table.
